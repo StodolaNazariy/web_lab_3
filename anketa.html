@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="anketa_style.css">
+    <title>Anketa</title>
+</head>
+<body>
+    <center>
+        <h1 class="anketa-h">Anketa</h1>
+        <h3 class="anketa-h">Заповніть анкету для вступлення в клуб "Віртуальна бібліотека"</h3>
+    </center>
+    <form action="POST">
+        <p>Введіть ваше ПІП: <br><input type="text" value="ПІП"></p>  
+        <p>Введіть пароль: <input type="password" ></p>
+        <div>Стать:
+            <input type="radio">М
+            <input type="radio">Ж
+        </div>
+        <p>Вид діяльності:</p>
+        <div>
+            <input type="checkbox">Школяр <br>
+            <input type="checkbox">Студент <br>
+            <input type="checkbox">Аспірант <br>
+            <input type="checkbox">Працюю <br>
+            <input type="checkbox">Не працюю <br>
+        </div><br>
+        <p>Які жанри тобі найбільше подобаються:</p>
+        <select name="genres" size="6">
+            <option value="#">Пригодницькі</option>
+            <option value="#">Детективи</option>
+            <option value="#">Фентезі</option>
+            <option value="#">Фантастика</option>
+            <option value="#">Про любов</option>
+            <option selected>Інші</option>
+        </select>
+        <p>Що читаєш зараз?</p>
+        <p>Поділись своїми враженнями:</p>
+        <textarea name="#" id="#" cols="50" rows="7"></textarea>
+        <p><a href="https://bookclub.ua/ru/catalog/books/">Детальніше за посиланням</a></p>
+        <div class="div-anketa">
+            <input type="reset">
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>

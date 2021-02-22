@@ -1,0 +1,20 @@
+.anketa-h{
+    color: chocolate;
+}
+*{
+    color: chocolate;
+}
+body{
+    background-color:black;
+}
+select{
+    width: 300px;
+    height: 130px;
+    font-size: 16px;
+}
+textarea{
+    font-size: 18px;
+}
+.div-anketa{
+    margin-left: 100px;
+}
